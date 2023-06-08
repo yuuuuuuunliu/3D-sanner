@@ -21,9 +21,9 @@ end
 trial = size(0 : 0.04 : t_max);
 t = 0 : 0.04 : t_max;
 theta = t.*angular_speed;
-SmoothData = smoothdata(r, "movmean", 50);
-x = SmoothData.*cos(theta);
-y = SmoothData.*sin(theta);
+smoothData = smoothdata(r, "movmean", 50);
+x = smoothData.*cos(theta);
+y = smoothData.*sin(theta);
 z = t.*vertical_speed;
 scatter3(x, y, z);
 
