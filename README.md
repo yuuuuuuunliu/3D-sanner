@@ -10,6 +10,9 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Description](https://github.com/yuuuuuuunliu/3D-sanner#Description)
 * [List of Components](https://github.com/yuuuuuuunliu/3D-sanner#List_of_Components)
 * [Method](https://github.com/yuuuuuuunliu/3D-sanner#Method)
+* [Construction](https://github.com/yuuuuuuunliu/3D-sanner#Construction)
+* [Measurement and Analysis](https://github.com/yuuuuuuunliu/3D-sanner#Measurement_and_Analysis)
+* [Measurement and Analysis](https://github.com/yuuuuuuunliu/3D-sanner#Measurement_and_Analysis)
 
 ## Description
 
