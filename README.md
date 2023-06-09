@@ -19,8 +19,10 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 We use HC-SR04 as the ultrasound distance sensor component.
   
   ![A picture of the distance sensor we used](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/HC-SR04.jpg)
-
-HC-SR04 has 4 pins. The Vcc pin and GND pin are connected to 5V and GND of Arduino Nano respectively. Both of them function as power supply as well as logical high/low. Trig pin is the input of HC-SR04 and is conncted to D3
+  
+The HC-SR04 module consists of four pins. The Vcc pin and GND pin are connected to the 5V and GND pins of the Arduino Nano, respectively. These pins serve as both power supply and logic level control (high/low). The Trig pin is an input pin of the HC-SR04 and is connected to the D3 pin of the Arduino Nano. The Echo pin is an output pin of the HC-SR04 and is connected to the D2 pin of the Arduino Nano. In fact, the Trig and Echo pins can be connected to any two digital I/O pins of the Arduino Nano. The HC-SR04 module consists of two piezoelectric transducers, one acting as a transmitter (marked with "T") and the other as a receiver (marked with "R"). 
+To initiate a distance measurement with the HC-SR04 module, a voltage pulse is sent to the Trig pin. This voltage pulse is transformed into a sine wave by a local oscillator, and the resulting sine-shaped voltage signal is sent to the transmitter. The transmitter converts this voltage signal into a sound signal, emitting an 8-cycle sonic burst in the forward direction. Simultaneously, the receiver is set to a high state, and a timer starts counting.
+The emitted sonic burst travels through space and reflects when it encounters the nearest object. Upon receiving the reflected wave, the receiver changes to a low state, indicating the detection of the reflected signal, and the timer stops counting.
 
 ## List of Components
   * Ultrasonic Distance Sensor - HC-SR04
