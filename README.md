@@ -16,7 +16,9 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 
 ## Description
+The ultrasound 3D scanning device consists of two main components: a fixed ultrasound ranging device and a rotatable lifting platform. The ultrasound ranging device utilizes the reflection of sound waves to determine the distances between various points on an object and its position. The lifting platform is powered by a stepper motor and is driven by gears and screws to rotate and elevate the object. As the platform rotates, the object passes through the ultrasound ranging device in a spiral path, and the coordinates of the object's points are recorded.
 
+Subsequently, we process the collected data using MATLAB and extract the outer contour of the scanned object to generate a three-dimensional model. This is achieved through an interactive program that allows us to visualize the reconstructed 3D model based on the acquired data.
 
 ## List of Components
   * Ultrasonic Distance Sensor - HC-SR04
