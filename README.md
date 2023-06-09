@@ -7,13 +7,8 @@ Access our project presentation through this link: https://docs.google.com/prese
 We hope you enjoy exploring this guide and find it helpful in creating your own 3D scanner.
  
 ## Table of Contents
-* [List of Components](https://github.com/KilnStuff/Kiln-Project#list-of-components)
-* [Design](https://github.com/KilnStuff/Kiln-Project#design)
-* [Building Process](https://github.com/KilnStuff/Kiln-Project#building-process)
-* [Code](https://github.com/KilnStuff/Kiln-Project#Code)
-* [Designing A PID](https://github.com/KilnStuff/Kiln-Project#designing-a-pid)
-* [Finished Product](https://github.com/KilnStuff/Kiln-Project#finished-product)
-* [Contributors](https://github.com/KilnStuff/Kiln-Project#contributors)
+* [Description](https://github.com/yuuuuuuunliu/3D-sanner#Description)
+* [List of Components](https://github.com/yuuuuuuunliu/3D-sanner#List of Components)
 
 ## Description
 
