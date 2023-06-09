@@ -50,7 +50,8 @@ The duration for which the receiver stays in a high state is equal to the time i
 
 ## Contributors
 
-
+The distance sensor we utilize emits a conical wave with a raypath angle of 15 degrees.
+https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbing%20block.png
 
 ## Getting Started
 
