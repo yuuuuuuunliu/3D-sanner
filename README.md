@@ -8,7 +8,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
  
 ## Table of Contents
 * [Description](https://github.com/yuuuuuuunliu/3D-sanner#Description)
-* [List of Components](https://github.com/yuuuuuuunliu/3D-sanner#List of Components)
+* [List of Components](https://github.com/yuuuuuuunliu/3D-sanner#List_of_Components)
 
 ## Description
 
