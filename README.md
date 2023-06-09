@@ -49,7 +49,9 @@ To initiate a distance measurement with the HC-SR04 module, a voltage pulse is s
 
 The duration for which the receiver stays in a high state is equal to the time it takes for the sound to travel in space. Therefore, the distance between the sensor and the object can be calculated using the formula: d = (v * t) / 2, where t represents the measured time and v represents the speed of sound. The speed of sound is typically considered to be around 340 m/s, but it can vary depending on the medium and temperature conditions.
 
-$$s = r_max - d$$
+$$s = r_{max} - d$$
+
+$$\theta = \omega * t$$
 
 ## Construction
 
