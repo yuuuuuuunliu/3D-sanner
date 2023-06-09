@@ -56,7 +56,7 @@ The distance sensor we utilize emits a conical wave with a raypath angle of 15 d
 
 The figure below illustrates the results obtained when using the sensor to measure a stationary object (i.e., where the distance from the point to the origin, s, remains constant), and processing the data using MATLAB to generate a three-dimensional image in cylindrical coordinates. It is evident that the erroneous refracted points have been effectively eliminated through the use of the absorbent block.
  
-  ![Comparison of plots before and after using the absorbent block](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbent%20block.png)
+  ![Comparison of plots before and after using the absorbent block](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Comparison%20for%20the%20absorbent%20block.png)
 
 
 
