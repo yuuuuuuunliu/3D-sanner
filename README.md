@@ -46,7 +46,7 @@ The duration for which the receiver stays in a high state is equal to the time i
 
 HC-SR04 has a range from 2cm to 4m. Experimental results have shown that the HC-SR04 distance sensor has a measurement standard deviation of less than 0.5mm. The difference between measured values and actual values is typically less than 2cm, with the majority of errors staying below 0.5cm. Therefore, we can consider the HC-SR04 to be a precise and accurate distance sensor. Additionally, due to its stable numeric uncertainty rather than percentage uncertainty, we can reduce errors by applying it to large objects. This improvement strategy will be further discussed in the future development section.
 
-  ![A plot of the sensor's measurements against the actual length]([https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbent%20block.png](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Calibration%20in%201D.png))
+  ![A plot of the sensor's measurements against the actual length](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Calibration%20in%201D.png)
 
 
 The distance sensor we utilize emits a conical wave with a raypath angle of 15 degrees. This angle allows the sensor to be sensitive to a wider area. However, in situations where high precision distance measurements are required, such high sensitivity can lead to unnecessary feedback. To mitigate this, we can place a rough absorbent block beneath the sensor. This block, with its rough surface, causes non-radial sound waves to undergo multiple reflections in a short period of time, dissipating a significant amount of energy and effectively absorbing unwanted reflected waves. 
