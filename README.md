@@ -17,7 +17,28 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+## List of Components
+  * Ultrasonic Distance Sensor - HC-SR04
+  * Arduino Nano 3.x
+  * 4 Phase ULN2003 Stepper Motor Driver PCB
+  * 28BYJ-48 - 5V Stepper Motor
+  * Arduino Uno Mini LE - MCU 8-Bit Embedded Evaluation Board
+  * Screw and nut
+  * PCB Board
+  * Jumper wires
+  * 3D-printed parts
+
+## Method
+
+## Construction
+
+## Measurement and Analysis
+
+## Future Development
+
+## Contributors
+
+
 
 ## Getting Started
 
