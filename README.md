@@ -16,7 +16,11 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 
 ## Description
+We use HC-SR04 as the ultrasound distance sensor component.
+  
   ![A picture of the distance sensor we used](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/HC-SR04.jpg)
+
+HC-SR04 has 4 pins. The Vcc pin and GND pin are connected to 5V and GND of Arduino Nano respectively. Both of them function as power supply as well as logical high/low. Trig pin is the input of HC-SR04 and is conncted to D3
 
 ## List of Components
   * Ultrasonic Distance Sensor - HC-SR04
