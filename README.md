@@ -52,9 +52,11 @@ The duration for which the receiver stays in a high state is equal to the time i
 
 The distance sensor we utilize emits a conical wave with a raypath angle of 15 degrees. This angle allows the sensor to be sensitive to a wider area. However, in situations where high precision distance measurements are required, such high sensitivity can lead to unnecessary feedback. To mitigate this, we can place a rough absorbent block beneath the sensor. This block, with its rough surface, causes non-radial sound waves to undergo multiple reflections in a short period of time, dissipating a significant amount of energy and effectively absorbing unwanted reflected waves. 
 
-  ![A picture of the distance sensor we used](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbing%20block.png)
+  ![A picture of the absorbent block and a close-up look of its surface](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbent%20block.png)
 
 The figure below illustrates the results obtained when using the sensor to measure a stationary object (i.e., where the distance from the point to the origin, s, remains constant), and processing the data using MATLAB to generate a three-dimensional image in cylindrical coordinates. It is evident that the erroneous refracted points have been effectively eliminated through the use of the absorbent block.
+ 
+  ![Comparison of plots before and after using the absorbent block](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/actual%20picture%20of%20the%20absorbent%20block.png)
 
 
 
