@@ -12,7 +12,8 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Method](https://github.com/yuuuuuuunliu/3D-sanner#Method)
 * [Construction](https://github.com/yuuuuuuunliu/3D-sanner#Construction)
 * [Measurement and Analysis](https://github.com/yuuuuuuunliu/3D-sanner#Measurement_and_Analysis)
-* [Measurement and Analysis](https://github.com/yuuuuuuunliu/3D-sanner#Measurement_and_Analysis)
+* [Future Development](https://github.com/yuuuuuuunliu/3D-sanner#Future_Development)
+* [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 
 ## Description
 
