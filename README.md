@@ -1,8 +1,7 @@
-# 3D-sanner
-Project presentation: https://docs.google.com/presentation/d/14-DhOLEjQ7N0TpDgxVi51gBwk0Xk7jdvzFTlWsp83JA/edit?usp=sharing
-# Ultrasound 3D Sanner
+# Ultrasound 3D Scanner
 
-Simple overview of use/purpose.
+This guide outlines the development process of our ultrasound 3D scanner. We will provide resources in this repository that can be used to reproduce the project, as well as data for evaluating the accuracy of the measurement results.
+Access our project presentation through this link: https://docs.google.com/presentation/d/14-DhOLEjQ7N0TpDgxVi51gBwk0Xk7jdvzFTlWsp83JA/edit?usp=sharing
 
 ## Description
 
