@@ -16,6 +16,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 
 ## Description
+  ![alt text](https://github.com/KilnStuff/Kiln-Project/blob/master/IMG_20190606_142748.jpg)
 
 ## List of Components
   * Ultrasonic Distance Sensor - HC-SR04
