@@ -57,6 +57,10 @@ $$\theta = \omega * t$$
 
 $$z = v * t$$
 
+Once we have marked all the points on the object's surface in space, our goal is to construct the outer surface of the object using these points. While we can easily visualize the outer surface, computers have numerous possibilities for constructing planes based on the given points. Therefore, we need to specify the desired planes. The instruction we provide to the computer is to connect points with adjacent θ and z values, and to fill all the quadrilaterals bounded by the connecting lines. This process allows us to construct the outer surface of the object. 
+
+For the specific MATLAB code, please refer to the following link:
+
 ## Construction
 
 HC-SR04 has a range from 2cm to 4m. Experimental results have shown that the HC-SR04 distance sensor has a measurement standard deviation of less than 0.5mm. The difference between measured values and actual values is typically less than 2cm, with the majority of errors staying below 0.5cm. Therefore, we can consider the HC-SR04 to be a precise and accurate distance sensor. Additionally, due to its stable numeric uncertainty rather than percentage uncertainty, we can reduce errors by applying it to large objects. This improvement strategy will be further discussed in the future development section.
