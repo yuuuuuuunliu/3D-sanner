@@ -49,6 +49,8 @@ To initiate a distance measurement with the HC-SR04 module, a voltage pulse is s
 
 The duration for which the receiver stays in a high state is equal to the time it takes for the sound to travel in space. Therefore, the distance between the sensor and the object can be calculated using the formula: d = (v * t) / 2, where t represents the measured time and v represents the speed of sound. The speed of sound is typically considered to be around 340 m/s, but it can vary depending on the medium and temperature conditions.
 
+$$s = r_max - d$$
+
 ## Construction
 
 HC-SR04 has a range from 2cm to 4m. Experimental results have shown that the HC-SR04 distance sensor has a measurement standard deviation of less than 0.5mm. The difference between measured values and actual values is typically less than 2cm, with the majority of errors staying below 0.5cm. Therefore, we can consider the HC-SR04 to be a precise and accurate distance sensor. Additionally, due to its stable numeric uncertainty rather than percentage uncertainty, we can reduce errors by applying it to large objects. This improvement strategy will be further discussed in the future development section.
