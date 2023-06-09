@@ -49,6 +49,8 @@ To initiate a distance measurement with the HC-SR04 module, a voltage pulse is s
 
 The duration for which the receiver stays in a high state is equal to the time it takes for the sound to travel in space. Therefore, the distance between the sensor and the object can be calculated using the formula: d = (v * t) / 2, where t represents the measured time and v represents the speed of sound. The speed of sound is typically considered to be around 340 m/s, but it can vary depending on the medium and temperature conditions.
 
+We aim to have three spatial dimensions for each data point to determine their coordinates in space accurately. Since the trajectory of the object moving in front of the sensor is spiral-shaped, expressing the coordinates in cylindrical coordinates would be the most convenient way. The actual measurement results include two dimensions - time (t) and distance (d). By introducing the angular velocity (ω) of the rotating disc and the vertical velocity (v), we can represent the angle (θ) between the point's position along the radial axis and the initial radial axis as a function of time (t), as well as the distance (z) between the point's position and the initial plane as a function of time (t). Introducing the distance (r_max) from the sensor to the vertical axis of the cylinder allows us to calculate the distance (s) between the measurement point and the vertical axis of the cylinder. Hence, we can determine the cylindrical coordinates (s, θ, z) of each point on the object's surface in a coordinate system with the initial plane as the xy-plane and the vertical axis of the cylinder as the z-axis. The specific formulas for the calculations are as follows:
+
 $$s = r_{max} - d$$
 
 $$\theta = \omega * t$$
