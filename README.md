@@ -129,6 +129,9 @@ Then we proceed to scan the box as illustrated in the following image:
 
   ![The picture of the box we will scan in this section](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Picture%20of%20the%20box.png)
   
+However, the resulting image this time does not resemble a box in any way. Upon careful observation of the scanning process of the box and experimenting with different platform rotation speeds in Matlab, we have found that the failure in imaging the box is due to the instability of the platform rotation speed.
+
+  ![The 3D scan of the box in both scatter plot and surface plot versions](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/3D%20graph%20of%20the%20box.png)
 
 
 
