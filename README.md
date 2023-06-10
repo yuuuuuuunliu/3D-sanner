@@ -11,14 +11,14 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [List of Components](https://github.com/yuuuuuuunliu/3D-sanner#List_of_Components)
 * [Method](https://github.com/yuuuuuuunliu/3D-sanner#Method)
 * [Construction](https://github.com/yuuuuuuunliu/3D-sanner#Construction)
-* [Measurement and Analysis](https://github.com/yuuuuuuunliu/3D-sanner#Measurement_and_Analysis)
+* [Product Review](https://github.com/yuuuuuuunliu/3D-sanner#Product_Review)
 * [Future Development](https://github.com/yuuuuuuunliu/3D-sanner#Future_Development)
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 * <del>Description</del>
 * <del>List of Components</del>
 * <del>Method</del>
 * <del>Construction</del>
-* Measurement and Analysis
+* Product Review
 * Future Development
 * Contributors
 
@@ -82,7 +82,9 @@ The figure below illustrates the results obtained when using the sensor to measu
  
   ![Comparison of plots before and after using the absorbent block](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Comparison%20for%20the%20absorbent%20block.png)
 
-## Measurement and Analysis
+## Product Review
+
+
 
 ## Future Development
 
