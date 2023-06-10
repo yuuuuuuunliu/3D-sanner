@@ -1,9 +1,13 @@
 clear; clc; clf; close all;
 a = arduino("/dev/tty.usbserial-AQ02T0FB", "Nano3", "Libraries", 'Ultrasonic');
+#Creat an arduino object
 ultrasonicObj = ultrasonic(a, "D3", "D2");
+#Creat an ultrasonic object
+#Trig pin is connected to D3 of Aduino Nano and Echo pin is connected to D2
 
 r = [];
 r_max = 0.2;
+#Distance between the vertical axis of the cylinder and the sensor
 vertical_speed = 0.1;
 angular_speed = pi/6;
 t_max = 10;
@@ -28,10 +32,12 @@ z = t.*vertical_speed;
 scatter3(x, y, z);
 
 d = ceil(2*pi/angular_speed/0.04);
+#Number of data per revolution
 X = [x(1:trial-d)
      x(d+1:trial)];
 Y = [y(1:trial-d)
      y(d+1:trial)];
 Z = [z(1:trial-d)
      z(d+1:trial)];
+#Connect points with adjacent z value and theta value
 surf(X, Y, Z)
