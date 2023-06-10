@@ -92,7 +92,10 @@ The code we used is as follows:
 smoothdData = smoothdata(r, "movmean", 50)
 ```
 
-In this code, "r" represents the data to be processed, "movmean" denotes the data processing method, and "50" indicates the window size.
+In this code, "r" represents the data to be processed, "movmean" denotes the data processing method, and "50" indicates the window size. The provided function creates a moving window with a size of 50 data. This window calculates the average value of all 50 data it contains and treats it as the smoothed data. Then, the window shifts by one value and the process is repeated. The window moves along the data while continuously calculating the average value until all the data is smoothed. Plotting the graph using the smoothed data reveals that a significant amount of noise has been removed. The resulting image exhibits a relatively smooth surface, which is what we desired.
+
+
+
 
 ## Product Review
 
