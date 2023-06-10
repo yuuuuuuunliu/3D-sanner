@@ -150,7 +150,16 @@ However, the resulting image this time does not resemble a box in any way. Upon 
 
 ## Future Development
 We have already mentioned some of the issues and unexpected results encountered in the previous discussion. In order to address these problems, we plan to upgrade the project in the future. Additionally, we will conduct corresponding experiments to investigate the causes of the unexpected results. Specific future measures that can be undertaken are outlined as follows:
+
 ### Upgrade of the rotating platform
+
+At the current stage, the rotating platform exhibits the following issues: Firstly, the rotating disc is not perfectly horizontal, causing a precession in the coordinate system in which the object is located as perceived by the distance sensor. Secondly, there are certain issues with the gear size, resulting in improper engagement. The gears that rotate synchronously with the rotating disc often experience slipping and jamming, leading to an unstable rotational speed. Lastly, the device is built on a cardboard box, which has low density. This causes the entire setup to shake under the influence of the stepper motor driving and the inertia of object rotation, significantly affecting the final scanning results. This shaking may also be a potential cause of the periodic noise observed in the raw data we discussed earlier，although further measurement and analysis are required to confirm this hypothesis.
+
+### Upgrade of the ultrasonic distance sensor
+
+### Upgrade of smoothdata() method
+
+### Research on period noise
 
 ## Contributors
 
