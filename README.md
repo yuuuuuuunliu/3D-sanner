@@ -164,9 +164,9 @@ Ideally, when scanning a cylindrical object with a base radius of R, the results
 
 This project was undertaken as part of the PHYS 13CL course at UCSB.
 
-We would like to extend our sincere appreciation to Professor Andrew Jayich and the teaching assistants, Robert Kwapisz and Eric Deck. Their unwavering support and guidance throughout these ten weeks have been invaluable to our project. We are also grateful to them for organizing enjoyable board game nights that helped alleviate our stress, and for feeding our restless souls with pizza and Fanta
+We would like to extend our sincere appreciation to Professor Andrew Jayich and the teaching assistants, Robert Kwapisz and Eric Deck. Their unwavering support and guidance throughout these ten weeks have been invaluable to our project. We are also grateful to them for organizing enjoyable board game nights that helped alleviate our stress, and for feeding our restless souls with pizza and Fanta.
 
-Furthermore, we would like to express our gratitude to Katelyn Saxen, Katya Osipova, and Eric Zhu for generously sharing their experiences and providing valuable insights when we encountered challenges during our progress.
+Furthermore, we would like to express our gratitude to thet group of Katelyn Saxen, Katya Osipova, and Eric Zhu for generously sharing their experiences and providing valuable insights when we encountered challenges during our progress.
 
 Special thanks go to Raffi Shirinian for his assistance in utilizing the 3D printer and for lending us his personal hot glue gun, which greatly facilitated our project.
 
