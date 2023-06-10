@@ -67,6 +67,13 @@ The expected outcome is shown below:
 
   ![Outer surface of a cylinder and a cone using simulated data](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Simulation.png)
 
+Before scanning the object, we build up a frame to hold all components. For most of the components, we used 3D Modeling to create and then print them out with 3D printers. All of STL. Files can find in the folder of .[Frame] (https://github.com/yuuuuuuunliu/3D-sanner#Frame). Some components have different versions, we did lots of improvements for every component. 
+
+The plate will hold the object we are going to scan. The main frame is going to fix the nut and hold the whole system. It can replace by box instead of 3D printing components, because large 3D printing components take a long time, which may take up to several days. A strew is connect with the plate and the strew gear. Before assemble them, the nut and connection should install first. From the top to the bottom of the strew, the sequence should be plate, nut, connection, and strew gear. The step motor should connect to the middle whole of the connection. Then, install step motor gear onto it and check the connection between step motor gear and the strew gear. The connection is free to rotate with the strew. The frame should limit this rotation and make sure it can move up and downward with the strew. Other parts work for fix the sensor, they are flexible to do adjustments due to your different use. 
+
+Different printers may print out components with different uncertainty. Some adjustments may be needed especially for the gears. If the gears have spinning conditions, enlarging the teeth of gears for 1mm is a good choice. 
+
+
 
 
 ## Construction
