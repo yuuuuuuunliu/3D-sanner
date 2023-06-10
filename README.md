@@ -86,11 +86,13 @@ We use the device to scan the surface of a cylindrical object. Ideally, the resu
 
   ![Pictures that showcase the cylindrical object, the raw data of r over multiple trials, and a 3D graph generated based on the measurements](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/raw%20cylinder.png)
 
-
+The code we used is as follows:
 
 ```
-code blocks for commands
+smoothdData = smoothdata(r, "movmean", 50)
 ```
+
+In this code, "r" represents the data to be processed, "movmean" denotes the data processing method, and "50" indicates the window size.
 
 ## Product Review
 
