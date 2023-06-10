@@ -20,7 +20,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * <del>List of Components</del>
 * <del>Method</del>
 * <del>Construction</del>
-* Product Review
+* <del>Product Review</del>
 * Future Development
 * Contributors
 
