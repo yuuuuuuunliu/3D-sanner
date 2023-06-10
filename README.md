@@ -143,7 +143,7 @@ However, the resulting image this time does not resemble a box in any way. Upon 
 
 ## Future Development
 We have already mentioned some of the issues and unexpected results encountered in the previous discussion. In order to address these problems, we plan to upgrade the project in the future. Additionally, we will conduct corresponding experiments to investigate the causes of the unexpected results. Specific future measures that can be undertaken are outlined as follows:
-###
+### Upgrade of the rotating platform
 
 ## Contributors
 
