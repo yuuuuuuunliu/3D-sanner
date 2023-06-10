@@ -61,12 +61,6 @@ The expected outcome is shown below:
 
   ![Outer surface of a cylinder and a cone using simulated data](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Simulation.png)
 
-Before scanning the object, we build up a frame to hold all components. For most of the components, we used 3D Modeling to create and then print them out with 3D printers. All of STL. Files can find in the folder of [Frame](https://github.com/yuuuuuuunliu/3D-sanner/tree/main/Frame). Some components have different versions, we did lots of improvements for every component. 
-
-The plate will hold the object we are going to scan. The main frame is going to fix the nut and hold the whole system. It can replace by box instead of 3D printing components, because large 3D printing components take a long time, which may take up to several days. A strew is connect with the plate and the strew gear. Before assemble them, the nut and connection should install first. From the top to the bottom of the strew, the sequence should be plate, nut, connection, and strew gear. The step motor should connect to the middle whole of the connection. Then, install step motor gear onto it and check the connection between step motor gear and the strew gear. The connection is free to rotate with the strew. The frame should limit this rotation and make sure it can move up and downward with the strew. Other parts work for fix the sensor, they are flexible to do adjustments due to your different use. 
-
-Different printers may print out components with different uncertainty. Some adjustments may be needed especially for the gears. If the gears have spinning conditions, enlarging the teeth of gears for 1mm is a good choice. 
-
 
 In order to scan the 3D information of an object, we rotate the object and make it move upward. The sensor is fixed and gets information when the system is start to work. In this way, we just need to collect the information on time and distance from the sensor to the object. The location can be calculated from the time and velocity of the step motor. The step motor rotates one lap in 4 seconds. The plate rotates 1 lap using 10 seconds. In each lap, the object will raise 2 mm with the average speed with the plate. 
 
@@ -152,6 +146,7 @@ We have already mentioned some of the issues and unexpected results encountered 
 ### Upgrade of the rotating platform
 
 At the current stage, the rotating platform exhibits the following issues: Firstly, the rotating disc is not perfectly horizontal, causing a precession in the coordinate system in which the object is located as perceived by the distance sensor. Secondly, there are certain issues with the gear size, resulting in improper engagement. The gears that rotate synchronously with the rotating disc often experience slipping and jamming, leading to an unstable rotational speed. Lastly, the device is built on a cardboard box, which has low density. This causes the entire setup to shake under the influence of the stepper motor driving and the inertia of object rotation, significantly affecting the final scanning results. This shaking may also be a potential cause of the periodic noise observed in the raw data we discussed earlier，although further measurement and analysis are required to confirm this hypothesis.
+Adjustments on 3D printing can solve some problem. For example, adjust the size of plate and enlarge the teeth of gears can solve the first two problems. Also, this method can make the system works more stable as well, which can reduce some vibration. Also, the frame should be upgrade to all-3D-printed one. It may take a long time to print, but it is heavier and more stable. Additionally, create new 3D modeling of protection cover for the sensor may help to reduce noise. 
 
 ### Upgrade of the ultrasonic distance sensor
 
