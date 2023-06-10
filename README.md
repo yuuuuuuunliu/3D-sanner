@@ -16,7 +16,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Product Review](https://github.com/yuuuuuuunliu/3D-sanner#Product_Review)
 * [Future Development](https://github.com/yuuuuuuunliu/3D-sanner#Future_Development)
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
-* [Acknowledgment](https://github.com/yuuuuuuunliu/3D-sanner#Acknowledgment)
+* [Acknowledgments](https://github.com/yuuuuuuunliu/3D-sanner#Acknowledgments)
 
 ## Description
 The ultrasonic 3D scanning device consists of two main components: a fixed ultrasonic distance sensor and a rotatable lifting platform. The ultrasonic distance sensor utilizes the reflection of sound waves to determine the distances between its position and various points on an object. The lifting platform is powered by a stepper motor and is driven by gears and screws to rotate and elevate the object. As the platform rotates, the object passes through the ultrasonic distance sensor in a spiral path, and the coordinates of the object's points are recorded.
@@ -175,7 +175,11 @@ We would also like to thank Max Kolevski for his assistance in procuring the ste
 
 Lastly, we want to acknowledge and thank Reuben Beeler for his thought-provoking questions during the presentation. His inquiries inspired us to reevaluate our criteria for evaluating the scan results.
 
-## Acknowledgment
-
+## Acknowledgments
+* [Datasheet of HC-SR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+* [Datasheet of 4 Phase ULN2003 Stepper Motor Driver PCB](https://www.electronicoscaldas.com/datasheet/ULN2003A-PCB.pdf)
+* [Datasheet of 28BYJ-48 – 5V Stepper Motor](https://www.mouser.com/datasheet/2/758/stepd-01-data-sheet-1143075.pdf)
+* [Control 28BYJ-48 Stepper Motor with ULN2003 Driver & Arduino](https://lastminuteengineers.com/28byj48-stepper-motor-arduino-tutorial/)
+* [DIY Sonar Scanner Using Phased Array](https://www.youtube.com/watch?v=Evao3XUUAOY)
 
 
