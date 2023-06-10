@@ -108,7 +108,7 @@ In this code, "r" represents the data to be processed, "movmean" denotes the dat
 
 The arrangement of the scanned objects is illustrated in the following diagram:
 
-  ![The arrangement of two stacked cylinders that will be scanned for review](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/smoothdata%20comparison.png)
+  ![The arrangement of two stacked cylinders that will be scanned for review](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Stacked%20cylinder.png)
 
 
 ## Future Development
