@@ -72,7 +72,7 @@ In order to scan the 3D information of an object, we rotate the object and make 
 
 The rotating frame is motivated by a stepped motor with following circuit connection:
 
-  ![Circuit connection of stepper motor, driver, and Aduino](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Simulation.png)
+  ![Circuit connection of stepper motor, driver, and Aduino](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Motor/Motor_Circuit.png)
 
 
 ## Construction
