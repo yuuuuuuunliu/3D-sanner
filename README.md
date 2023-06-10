@@ -162,13 +162,14 @@ Ideally, when scanning a cylindrical object with a base radius of R, the results
 
 ## Contributorst
 
-This project is built for PHYS 13CL course in UCSB.
+This project was undertaken as part of the PHYS 13CL course at UCSB.
 
-We would like to express our sincere appreciation to Professor Andrew Jayich and TAs, Robert Kwapisz and Eric Deck. Their unwavering support and guidance during these ten weeks have been invaluable. Also thank them for organizing board game nights to alleviate our stress and for feeding our restless souls with pizza and Fanta.
+We would like to extend our sincere appreciation to Professor Andrew Jayich and the teaching assistants, Robert Kwapisz and Eric Deck. Their unwavering support and guidance throughout these ten weeks have been invaluable to our project. We are also grateful to them for organizing enjoyable board game nights that helped alleviate our stress, and for feeding our restless souls with pizza and Fanta
 
-We also extend our gratitude to the team of Katelyn Saxen, Katya Osipova, and Eric Zhu for sharing their experiences with us when we encountered obstacles in our progress.
+Furthermore, we would like to express our gratitude to Katelyn Saxen, Katya Osipova, and Eric Zhu for generously sharing their experiences and providing valuable insights when we encountered challenges during our progress.
 
-We want to thank to Raffi Shirinian for assisting us with the use of the 3D printer and generously lending us his personal hot glue gun.
+Special thanks go to Raffi Shirinian for his assistance in utilizing the 3D printer and for lending us his personal hot glue gun, which greatly facilitated our project.
 
-We are grateful to Max Kolevski for assisting us in obtaining the stepper motor and driver from ILG for our project.
+We would also like to thank Max Kolevski for his assistance in procuring the stepper motor and driver from ILG, which were instrumental to the success of our project.
 
+Lastly, we want to acknowledge and thank Reuben Beeler for his thought-provoking questions during the presentation. His inquiries inspired us to reevaluate our criteria for evaluating the scan results.
