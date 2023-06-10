@@ -16,7 +16,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
 * <del>Description</del>
 * <del>List of Components</del>
-* Method
+* <del>Method</del>
 * <del>Construction</del>
 * Measurement and Analysis
 * Future Development
