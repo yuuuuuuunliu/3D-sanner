@@ -16,6 +16,7 @@ We hope you enjoy exploring this guide and find it helpful in creating your own 
 * [Product Review](https://github.com/yuuuuuuunliu/3D-sanner#Product_Review)
 * [Future Development](https://github.com/yuuuuuuunliu/3D-sanner#Future_Development)
 * [Contributors](https://github.com/yuuuuuuunliu/3D-sanner#Contributors)
+* [Acknowledgment](https://github.com/yuuuuuuunliu/3D-sanner#Acknowledgment)
 
 ## Description
 The ultrasonic 3D scanning device consists of two main components: a fixed ultrasonic distance sensor and a rotatable lifting platform. The ultrasonic distance sensor utilizes the reflection of sound waves to determine the distances between its position and various points on an object. The lifting platform is powered by a stepper motor and is driven by gears and screws to rotate and elevate the object. As the platform rotates, the object passes through the ultrasonic distance sensor in a spiral path, and the coordinates of the object's points are recorded.
@@ -173,3 +174,8 @@ Special thanks go to Raffi Shirinian for his assistance in utilizing the 3D prin
 We would also like to thank Max Kolevski for his assistance in procuring the stepper motor and driver from ILG, which were instrumental to the success of our project.
 
 Lastly, we want to acknowledge and thank Reuben Beeler for his thought-provoking questions during the presentation. His inquiries inspired us to reevaluate our criteria for evaluating the scan results.
+
+## Acknowledgment
+
+
+
