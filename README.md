@@ -109,6 +109,8 @@ In this code, "r" represents the data to be processed, "movmean" denotes the dat
 The arrangement of the scanned objects is illustrated in the following diagram:
 
   ![The arrangement of two stacked cylinders that will be scanned for review](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Stacked%20cylinder.png)
+ 
+The lower cylinder has a radius of approximately 6.5cm, while the upper cylinder has a radius of approximately 2.5cm. Both the raw data and smoothed data show a reduction in radius, which corresponds to our actual setup. 
 
 
 ## Future Development
