@@ -59,7 +59,7 @@ $$z = v * t$$
 
 Once we have marked all the points on the object's surface in space, our goal is to construct the outer surface of the object using these points. While we can easily visualize the outer surface, computers have numerous possibilities for constructing planes based on the given points. Therefore, we need to specify the desired planes. The instruction we provide to the computer is to connect points with adjacent θ and z values, and to fill all the quadrilaterals bounded by the connecting lines. This process allows us to construct the outer surface of the object. 
 
-For the specific MATLAB code, please refer to the following link:
+For the specific MATLAB graphing code, please refer to the following location, where I generate data for simulation purposes:
 
 ## Construction
 
