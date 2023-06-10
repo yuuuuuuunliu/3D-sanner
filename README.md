@@ -112,6 +112,8 @@ The arrangement of the scanned objects is illustrated in the following diagram:
  
 The lower cylinder has a radius of approximately 6.5cm, while the upper cylinder has a radius of approximately 2.5cm. Both the raw data and smoothed data show a reduction in radius, which corresponds to our actual setup. 
 
+  ![A comparison of the final 3D graphs between using the smoothdata() function and not using it](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/r%20plot%20for%20two%20cylinder.png)
+
 
 ## Future Development
 
