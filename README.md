@@ -74,9 +74,16 @@ The plate will hold the object we are going to scan. The main frame is going to 
 Different printers may print out components with different uncertainty. Some adjustments may be needed especially for the gears. If the gears have spinning conditions, enlarging the teeth of gears for 1mm is a good choice. 
 
 
+In order to scan the 3D information of an object, we rotate the object and make it move upward. The sensor is fixed and gets information when the system is start to work. In this way, we just need to collect the information on time and distance from the sensor to the object. The location can be calculated from the time and velocity of the step motor. The step motor rotates one lap in 4 seconds. The plate rotates 1 lap using 10 seconds. In each lap, the object will raise 2 mm with the average speed with the plate. 
 
 
 ## Construction
+
+Before scanning the object, we build up a frame to hold all components. For most of the components, we used 3D Modeling to create and then print them out with 3D printers. All of STL. Files can find in the folder of [Frame](https://github.com/yuuuuuuunliu/3D-sanner/tree/main/Frame). Some components have different versions, we did lots of improvements for every component. 
+
+The plate will hold the object we are going to scan. The main frame is going to fix the nut and hold the whole system. It can replace by box instead of 3D printing components, because large 3D printing components take a long time, which may take up to several days. A strew is connect with the plate and the strew gear. Before assemble them, the nut and connection should install first. From the top to the bottom of the strew, the sequence should be plate, nut, connection, and strew gear. The step motor should connect to the middle whole of the connection. Then, install step motor gear onto it and check the connection between step motor gear and the strew gear. The connection is free to rotate with the strew. The frame should limit this rotation and make sure it can move up and downward with the strew. Other parts work for fix the sensor, they are flexible to do adjustments due to your different use. 
+
+Different printers may print out components with different uncertainty. Some adjustments may be needed especially for the gears. If the gears have spinning conditions, enlarging the teeth of gears for 1mm is a good choice. 
 
 HC-SR04 has a range from 2cm to 4m. Experimental results have shown that the HC-SR04 distance sensor has a measurement standard deviation of less than 0.5mm. The difference between measured values and actual values is typically less than 2cm, with the majority of errors staying below 0.5cm. Therefore, we can consider the HC-SR04 to be a precise and accurate distance sensor. Additionally, due to its stable numeric uncertainty rather than percentage uncertainty, we can reduce errors by applying it to large objects. This improvement strategy will be further discussed in the future development section.
 
