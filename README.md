@@ -114,6 +114,7 @@ The lower cylinder has a radius of approximately 6.5cm, while the upper cylinder
 
   ![The plot showing the variation of distance r over trial for both raw data and smoothed data](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/r%20plot%20for%20two%20cylinder.png)
 
+We then examine the processed 3D image. The image roughly depicts the outer contours of two cylinders with different radii. At the same time, we can approximately read the measured values of the two cylinder radii from the graph, which are approximately 3cm and 6cm. Comparing these values to the actual data, we find an error of approximately 0.5cm, which aligns with the expected deviation in the initial direct measurements of distance using the ultrasonic sensor. Therefore, we can conclude that the precision of our obtained results is close to the inherent precision limit of the HC-SR04 sensor. For the current setup, this is a satisfactory outcome.
 
 ## Future Development
 
