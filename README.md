@@ -70,6 +70,10 @@ Different printers may print out components with different uncertainty. Some adj
 
 In order to scan the 3D information of an object, we rotate the object and make it move upward. The sensor is fixed and gets information when the system is start to work. In this way, we just need to collect the information on time and distance from the sensor to the object. The location can be calculated from the time and velocity of the step motor. The step motor rotates one lap in 4 seconds. The plate rotates 1 lap using 10 seconds. In each lap, the object will raise 2 mm with the average speed with the plate. 
 
+The rotating frame is motivated by a stepped motor with following circuit connection:
+
+  ![Circuit connection of stepper motor, driver, and Aduino](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Simulation.png)
+
 
 ## Construction
 
