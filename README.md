@@ -157,7 +157,11 @@ At the current stage, the rotating platform exhibits the following issues: First
 
 ### Upgrade of the ultrasonic distance sensor
 
+As mentioned earlier, the HC-SR04 sensor emits ultrasonic waves in the form of a cone with a vertex angle of 15 degrees. This characteristic introduces certain measurement errors and inaccuracies in capturing sharp edges of objects. We aim to narrow down the scanning range by utilizing phased array technology. Inspired by the video shared (https://www.youtube.com/watch?v=Evao3XUUAOY), we came up with the idea of employing a phased array approach to achieve this goal.By strategically spacing multiple wave sources and adjusting their phases, we can control the interference pattern of the emitted waves. This allows us to constructively interfere the waves along the desired path, forming a stronger sound ray, while causing destructive interference in other directions to minimize their impact on the main beam. We can build our own multi-wave source distance sensor to achieve a more focused detection beam. By using basic electronic components, we can design a distance sensor that provides analog signals instead of the digital output of the HC-SR04 module. By processing and analyzing the analog signals, we can extract information about multiple reflections, allowing us to obtain insights into the internal structure of objects.
+
 ### Upgrade of smoothdata() method
+
+In the previous experiments, I chose a window size of 50 based on multiple trial runs. This particular window size was found to strike a balance between data accuracy and precision while avoiding potential trial-specific outcomes. However, upon realizing that the noise we want to eliminate is periodic, measuring the period of the noise will help us determine a more appropriate window size. Therefore, in the future, we will attempt to measure the periodicity of the noise and explore the relationship between window size, periodicity of the noise, and the accuracy and precision of the final results by scanning objects with different shapes and symmetries.
 
 ### Research on period noise
 
