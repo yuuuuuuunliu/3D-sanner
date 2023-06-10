@@ -82,7 +82,14 @@ The figure below illustrates the results obtained when using the sensor to measu
  
   ![Comparison of plots before and after using the absorbent block](https://github.com/yuuuuuuunliu/3D-sanner/blob/main/Figures/Comparison%20for%20the%20absorbent%20block.png)
   
-We use the device to scan the surface of a cylindrical object. Ideally, the results obtained after the rotation of the turntable should be similar to the results obtained when the turntable is stationary, as the object exhibits cylindrical symmetry around the z-axis.
+We use the device to scan the surface of a cylindrical object. Ideally, the results obtained after the rotation of the turntable should be similar to the results obtained when the turntable is stationary, as the object exhibits cylindrical symmetry around the z-axis. However, in reality, the results obtained after the rotation of the turntable exhibit significant fluctuations. By observing the raw data and examining the scanned image of the object's outer surface based on the measurement results, we notice that the fluctuations in the raw data appear to be periodic. This observation is further supported by the presence of a wavy surface in the 3D representation. Therefore, we have decided to use the "smoothdata" function in MATLAB to remove these fluctuations.
+
+
+
+
+```
+code blocks for commands
+```
 
 ## Product Review
 
