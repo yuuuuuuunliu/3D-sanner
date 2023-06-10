@@ -121,6 +121,11 @@ We then examine the processed 3D image. The image roughly depicts the outer cont
 
 ### Scanning a box
 
+Then we proceed to scan the box as illustrated in the following image:
+
+
+
+
 ## Future Development
 
 ## Contributors
